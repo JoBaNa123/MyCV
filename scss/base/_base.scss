@@ -1,0 +1,21 @@
+:root {
+	--index: calc(1vw + 1vh);
+	--text: #e7e7e0;
+	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+}
+
+
+body {
+	background-color: rgb(1 12 10);
+	font-family: $font-title;
+	line-height: 1.55;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+   
+  
+}
